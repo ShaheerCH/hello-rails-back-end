@@ -5,7 +5,7 @@ class Message < ApplicationRecord
 
   def as_json(_options = {})
     {
-      message: message
+      message:
     }
   end
 end
